@@ -13,7 +13,7 @@ class SinglePhrase extends React.Component {
   }
   startSound () {
     this.setState({playSound: true})
-    setTimeout(this.stopSound.bind(this), 6500)
+    setTimeout(this.stopSound.bind(this), 3000)
   }
   stopSound () {
     this.setState({playSound: false})
@@ -21,7 +21,7 @@ class SinglePhrase extends React.Component {
 
   startSoundSlow () {
     this.setState({ playSlow: true })
-    setTimeout(this.stopSoundSlow.bind(this), 6500)
+    setTimeout(this.stopSoundSlow.bind(this), 5000)
   }
 
   stopSoundSlow () {
