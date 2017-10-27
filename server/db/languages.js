@@ -1,6 +1,6 @@
 const getLanguages = (db, image) => {
   return db('languages')
-    .select('language', 'image')
+    .select('id', 'language', 'image')
 }
 
 module.exports = {
