@@ -2,20 +2,13 @@ body {
   font-family: 'Passion One', cursive;
   font-family: 'Source Sans Pro', sans-serif;
   margin: auto;
-  color: black;
-  text-align: -webkit-center;
+  color:white;
 
 }
 
 #app {
-   background-image: url("http://cdni.condenast.co.uk/1920x1280/a_c/aerial-shot-of-tetiaroa-south-pacific-conde-nast-traveller-13jan15-tim-mckenna.jpg");
+   background-image: url("https://lonelyplanetwp.imgix.net/2013/04/niue-cs.jpg?w=1470&auto=enhance&q=40");
    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
 }
 
 #country {
@@ -38,10 +31,7 @@ button {
   margin: auto;
   text-align: center;
 }
-h2 {
-  font-size: 24px;
-   font-family: 'Nothing You Could Do', cursive;
-}
+
 .container {
   text-align: center;
   font-family: 'Source Sans Pro',
@@ -51,10 +41,9 @@ h2 {
 .banner {
   background-size: cover;
   background-position: center;
-    text-align: center;
-  color: black;
-  position: relative;
-    height: 60px;
+  text-align: center;
+  /* position: relative; */
+  height: 60px;
 
 }
 
@@ -70,7 +59,8 @@ h1 {
 }
 
 .navBar {
-  border: 1px solid black;
+  background-color: white;
+  color: black;
   font-size: 14px;
   font-weight: 400;
   display: flex;
@@ -108,7 +98,6 @@ img{
   text-align: center;
   background-color: black;
   color: white;
-  position: static;
   font-size: 10px;
   height: 20px;
   padding: 10px;
